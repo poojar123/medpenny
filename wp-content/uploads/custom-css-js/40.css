@@ -1,0 +1,407 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.Get-btn  a
+{
+      background-color: #E44240 !important;
+    color: #fff !important;
+    border-radius: 24px !important;
+    padding: 13px 22px !important;
+}
+.Get-btn  a:hover
+{
+    background-color: #fff !important;
+    color: #E44240 !important;
+  border:1px solid #E44240 !important;
+}
+.gestar-btn a:hover
+{
+   background-color: transparent !important;
+    color: #E44240 !important;
+  border:1px solid #E44240 !important;
+}
+.img-box
+{
+  display:flex;
+}
+.img-div
+{
+      padding-right: 5% !important;
+      text-align: center;
+      width: 56% !important;
+}
+#masthead
+{
+      position: fixed !important;
+    left: 0;
+    right: 0;
+    background-color: #fff !important;
+}
+.img-div h5
+{
+     font-size: 15px !important;
+      font-weight: 700 !important;
+}
+.img-box div
+{
+        line-height: 1.8 !important;
+    font-size: 14px !important;
+}
+.list-1 ul li
+{
+    margin-bottom: 10px !important;
+}
+.list-1 ul
+{
+      margin-left: 15px !important;
+}
+.sign-btn-1 a
+{
+  width:100% !important;
+}
+.sign-btn-1 a:hover
+{
+  background-color:transparent !important;
+  color:#E44240  !important;
+  border:1px solid #E44240 !important;
+}
+ .box-3-row .elementor-image-box-title
+{
+      margin-bottom: 0px !important;
+}
+.box-1-col .elementor-widget-wrap 
+{
+      height: fit-content !important;
+}
+#menu-1-4ab1bfe .current-menu-item a, #menu-1-4ab1bfe li a:hover
+{
+      border-bottom: 1px solid #e44240 !important;
+}
+#menu-1-4ab1bfe li a
+{
+      padding: 34px 16px !important;
+}
+.Get-btn  
+{
+      display: flex;
+    align-items: center;
+}
+body #menu-1-4ab1bfe .Get-btn a
+{
+      padding: 15px 30px !important;
+}
+.lite-box:hover
+{
+  transform:translateY(-15px) !important;
+}
+.lite-box
+{
+      transition: all ease-in-out 0.4s;
+}
+.acc-icon
+{
+  display: flex;
+    align-items: center;
+   padding:10px !important;
+}
+.red-ul
+{
+   padding:10px !important;
+}
+.acc-icon p
+{
+  margin-bottom:0px;
+}
+.acc-icon img
+{
+      width: 13% !important;
+    margin-right: 15px !important;
+}
+.small-txt
+{
+      font-size: 13px !important;
+}
+.elementor-tab-content 
+{
+  padding:0px !important;
+}
+.elementor-accordion .elementor-accordion-item 
+{
+    border: none !important;
+}
+hr
+{
+      border-bottom: 2px dotted #dfdfdf !important;
+}
+.black-box .txt, .black-box ul
+{
+  color:#fff !important;
+}
+.elementor-accordion .elementor-tab-content {
+    display: none;
+    padding: 15px 20px;
+    border-top: none !important;
+}
+.elementor-tab-title
+{
+      margin-bottom: 20px !important;
+}
+.lite-box .elementor-widget-wrap 
+{
+      height: fit-content !important;
+}
+
+.lite-box .elementor-divider
+{
+      padding-bottom: 0px !important;
+}
+
+/* Animation */
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.n2-ss-item-image img{
+  opacity: 0;
+  -webkit-animation: fadeInUp 1s ease-in-out 2s forwards;
+          animation: fadeInUp 1s ease-in-out 2s forwards;
+}
+/**/
+.n2-ss-item-image
+{
+  position:relative;
+  z-index:1;
+}
+.n2-ss-item-image:after
+{
+  content:"";
+  background-image:url(http://localhost/medpenny/wp-content/uploads/2021/07/bgstrip.png) !important;
+      position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover !important;
+    z-index: -1 !important;
+      left: 0;
+      background-position: center center !important;
+    background-size: 80% !important;
+  background-repeat:no-repeat;
+
+}
+.n2-ss-item-image img {
+    transition: all ease-in-out 0.4s;
+}
+.n2-ss-item-image img:hover{
+  
+    transform: translateY(-8px);
+}
+
+
+
+
+
+
+
+/*Responsive start*/
+@media (max-width: 767px)
+{
+    .hfe-nav-menu__toggle 
+  {
+    margin-right:0px !important;
+  }
+    .logo-col, .menu-col
+  {
+        width: 50% !important;
+  }
+    #menu-1-4ab1bfe li a {
+    padding: 17px 16px !important;
+     }
+   .header-row .hfe-site-logo-container
+  {
+        text-align: center !important;
+  }
+    .slider-row
+  {
+        padding-top: 18% !important;
+  }
+  .Get-btn
+  {
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin-left:11px !important;
+        margin-top: 4% !important;
+    margin-bottom: 12% !important;
+  }
+  .img-div
+  {
+    width:600px !important;
+  }
+       .black-col .elementor-widget-wrap 
+  {
+        padding: 11% 6% !important;
+        background-size: 100% 100% !important;
+  }
+  #menu-1-9cc2eca
+  {
+    display:block !important;
+  }
+  .elementor-social-icons-wrapper 
+  {
+        display: flex !important;
+    justify-content: flex-start !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+}
+/*portrait - ipad*/
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+     #menu-1-4ab1bfe li a {
+    padding: 20px 16px !important;
+     }
+      .Get-btn
+  {
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin-left:11px !important;
+        margin-top: 4% !important;
+    margin-bottom: 12% !important;
+  }
+     body .elementor-18 .elementor-element.elementor-element-4ab1bfe .hfe-nav-menu__toggle
+  {
+        margin-right: 0px !important;
+  }
+      .black-col .elementor-widget-wrap 
+  {
+    padding-left: 5% !important;
+  }
+  .slider-row
+  {
+    padding-top: 12% !important;
+  }
+}
+/* Landscape -ipad */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+     #menu-1-4ab1bfe li a {
+    padding: 20px 16px !important;
+     }
+     .Get-btn
+  {
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin-left:11px !important;
+        margin-top: 4% !important;
+    margin-bottom: 12% !important;
+  }
+      .black-col .elementor-widget-wrap 
+  {
+    padding-left: 5% !important;
+  }
+   .slider-row
+  {
+    padding-top: 11% !important;
+  }
+     body .elementor-18 .elementor-element.elementor-element-4ab1bfe .hfe-nav-menu__toggle
+  {
+        margin-right: 0px !important;
+  }
+}
+/* portrait -ipadPro */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    body .elementor-18 .elementor-element.elementor-element-4ab1bfe .hfe-nav-menu__toggle
+  {
+        margin-right: 0px !important;
+  }
+}
+/* landscape -ipadPro */
+@media only screen
+and (min-device-width: 1366px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+      .hfe-nav-menu__toggle 
+  {
+        margin-right: 0px !important;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px)
+{
+}
+@media (device-width: 2560px)
+{
+    .black-col .elementor-widget-wrap 
+  {
+    padding-left: 58% !important;
+
+  }
+}
+@media (device-width: 4096px)
+{
+       .black-col .elementor-widget-wrap 
+  {
+    padding-left: 73% !important;
+  }
+}
+@media (device-width: 5120px)
+{
+        .black-col .elementor-widget-wrap 
+  {
+    padding-left: 80% !important;
+  }
+}
+@media (device-width: 2048px)
+{
+      .black-col .elementor-widget-wrap 
+  {
+    padding-left: 48% !important;
+  }
+}
+@media (device-width: 1920px)
+{
+     .black-col .elementor-widget-wrap 
+  {
+    padding-left: 45% !important;
+  }
+}
+@media (device-width: 1280px)
+{
+     .black-col .elementor-widget-wrap 
+  {
+    padding-left: 15% !important;
+  }
+}
+
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

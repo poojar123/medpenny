@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'montserrat';
+					src: url('/medpenny/wp-content/uploads/useanyfont/2183Montserrat.woff2') format('woff2'),
+						url('/medpenny/wp-content/uploads/useanyfont/2183Montserrat.woff') format('woff');
+				}
+
+				.montserrat{font-family: 'montserrat' !important;}
+
+				.et_gf_montserrat{background:none !important;font-family:montserrat;text-indent:0 !important;font-size:25px;}
+
+		
